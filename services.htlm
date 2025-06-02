@@ -1,50 +1,30 @@
-<!DOCTYPE
-
-Super, je vais continuer à développer les pages pour ton site **Garage Saada**. Voici le plan :
-
-1. **Page Services** (`services.html`) – Décrit les différents services que tu proposes (soudure, mécanique, lavage, réparations).
-2. **Page Contact** (`contact.html`) – Formulaire de contact pour que les clients puissent facilement te joindre.
-3. **Page Galerie** (`galerie.html`) – Pour présenter les réalisations, photos avant/après.
-
----
-
-### 📋 **Page Services (`services.html`)**
-
-Voici le code pour la page **Services**, avec une description détaillée des prestations proposées par ton garage :
-
-```html
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Services de soudure, mécanique, lavage auto et réparations pour votre véhicule à Garage Saada."/>
-  <title>Nos Services - Garage Saada</title>
+  <meta name="description" content="Services proposés par Garage Saada : soudure, mécanique, lavage auto et réparations diverses.">
+  <title>Services - Garage Saada</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <nav class="navbar">
+    <a href="index.html">Accueil</a>
+    <a href="services.html">Services</a>
+    <a href="galerie.html">Galerie</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
   <header class="header">
     <h1>Nos Services</h1>
-    <p>Découvrez nos prestations pour l'entretien et la réparation de votre véhicule</p>
+    <p>Entretien complet et réparations pour votre véhicule</p>
   </header>
 
   <section class="services-list">
-    <div class="service">
-      <h2>Soudure</h2>
-      <p>Nous réalisons des soudures pour les échappements, châssis et autres réparations métalliques.</p>
-    </div>
-    <div class="service">
-      <h2>Mécanique générale</h2>
-      <p>Réparation et entretien moteur, freinage, suspension, et bien plus.</p>
-    </div>
-    <div class="service">
-      <h2>Lavage automobile</h2>
-      <p>Un lavage intérieur et extérieur complet pour rendre votre véhicule comme neuf.</p>
-    </div>
-    <div class="service">
-      <h2>Réparations diverses</h2>
-      <p>Autres services de réparation : carrosserie, diagnostic, remplacement de pièces, etc.</p>
-    </div>
+    <div class="service"><h2>Soudure</h2><p>Réparation de châssis, échappement et pièces métalliques.</p></div>
+    <div class="service"><h2>Mécanique</h2><p>Moteur, freinage, suspension, diagnostics et révisions.</p></div>
+    <div class="service"><h2>Lavage auto</h2><p>Lavage intérieur et extérieur complet.</p></div>
+    <div class="service"><h2>Réparations diverses</h2><p>Remplacement de pièces, diagnostic électronique, carrosserie.</p></div>
   </section>
 
   <footer>
