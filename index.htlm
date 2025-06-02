@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Garage Saada - Soudure, mécanique, lavage auto et réparations à votre service."/>
+  <title>Garage Saada</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Garage Saada</h1>
+    <p>Soudure, mécanique, lavage auto et réparations</p>
+  </header>
+
+  <section class="hero">
+    <img src="photo-garage.jpg" alt="Garage Saada" class="hero-img" />
+    <div class="hero-text">
+      <h2>Bienvenue au Garage Saada</h2>
+      <p>Nous vous accueillons pour tous travaux de soudure, mécanique générale, lavage automobile et autres réparations.</p>
+      <a href="services.html" class="btn">Nos services</a>
+      <a href="contact.html" class="btn">Nous contacter</a>
+    </div>
+  </section>
+
+  <section class="infos">
+    <h3>📍 Adresse</h3>
+    <p><a href="https://maps.app.goo.gl/qgX9V9BvvuNAAMuB9?g_st=com.google.maps.preview.copy" target="_blank">Voir sur Google Maps</a></p>
+
+    <h3>📞 Téléphone</h3>
+    <p><a href="tel:0645180036">0645180036</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Garage Saada – Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
