@@ -3,14 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Contactez Garage Saada pour plus d'informations ou pour réserver un service."/>
+  <meta name="description" content="Contactez Garage Saada à Marrakech pour toute demande de service ou d'information.">
   <title>Contact - Garage Saada</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <nav class="navbar">
+    <a href="index.html">Accueil</a>
+    <a href="services.html">Services</a>
+    <a href="galerie.html">Galerie</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
   <header class="header">
     <h1>Contactez-nous</h1>
-    <p>Vous avez des questions ou souhaitez réserver un service ? Remplissez le formulaire ci-dessous.</p>
+    <p>Besoin d’un devis ou d’une intervention rapide ?</p>
   </header>
 
   <section class="contact-form">
